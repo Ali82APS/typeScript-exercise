@@ -10,7 +10,9 @@ function App() {
     <div className="App">
       <h1>typescript</h1>
 
-      <User name="ali" age={21} hasChild={true} sum={sum} />
+      <User name="Ali" age={21} hasChild={true} sum={sum} father='MR' mother='X' />
+      <hr/>
+      <User name="X" age={21} hasChild={false} sum={sum} mother='z' />
     </div>
   );
 }
